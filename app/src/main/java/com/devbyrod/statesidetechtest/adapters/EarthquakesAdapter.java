@@ -41,20 +41,6 @@ public class EarthquakesAdapter extends RecyclerView.Adapter<EarthquakesAdapter.
         mInViewPager = inViewPager;
     }
 
-    public void clear() {
-
-        if(mEarthquakes == null || mEarthquakes.isEmpty()) return;
-
-        mEarthquakes.clear();
-        notifyDataSetChanged();
-        mLastPosition = -1;
-    }
-
-    public void addAll(List<Earthquake> earthquakes) {
-        mEarthquakes.addAll(earthquakes);
-        notifyDataSetChanged();
-    }
-
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         mContext = parent.getContext();
@@ -109,8 +95,6 @@ public class EarthquakesAdapter extends RecyclerView.Adapter<EarthquakesAdapter.
 
     private void manageAnimation(final View view, int position) {
 
-//        if(position < mLastPosition || (mInViewPager && position < 6))
-//            return;
         if(mInViewPager && (position < mLastPosition || position < 6))
             return;
 
