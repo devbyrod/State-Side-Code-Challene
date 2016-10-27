@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StateSideTechTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="google_maps_api_key">AIzaSyAEEIM773IwEb2dAkMGRtA-Ari7qTG13tY</string>
+
+    <string name="section_events">Events</string>
+    <string name="section_map">Map</string>
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <string name="earthquake_magnitude_0">Not Felt</string>
+    <string name="earthquake_magnitude_1">Very Weak</string>
+    <string name="earthquake_magnitude_2">Weak</string>
+    <string name="earthquake_magnitude_3">Light</string>
+    <string name="earthquake_magnitude_4">Moderate</string>
+    <string name="earthquake_magnitude_5">Strong</string>
+    <string name="earthquake_magnitude_6">Very Strong</string>
+    <string name="earthquake_magnitude_7">Severe</string>
+    <string name="earthquake_magnitude_8">Violent</string>
+    <string name="earthquake_magnitude_9">Extreme</string>
+
+    <string name="date_from">from:</string>
+    <string name="date_to">to:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

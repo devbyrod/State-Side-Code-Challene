@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Color Codes provided by:-->
+    <!--http://www.caloes.ca.gov/for-individuals-families/earthquake-preparedness/earthquake-about-->
+    <color name="colorEarthquakeMagnitude0">#ffffff</color>
+    <color name="colorEarthquakeMagnitude1">#E0E6FD</color>
+    <color name="colorEarthquakeMagnitude2">#87FAFA</color>
+    <color name="colorEarthquakeMagnitude3">#83F9DE</color>
+    <color name="colorEarthquakeMagnitude4">#98F67F</color>
+    <color name="colorEarthquakeMagnitude5">#F7F74C</color>
+    <color name="colorEarthquakeMagnitude6">#FBC940</color>
+    <color name="colorEarthquakeMagnitude7">#FD712F</color>
+    <color name="colorEarthquakeMagnitude8">#EA2824</color>
+    <color name="colorEarthquakeMagnitude9">#C6211D</color>
+</resources>

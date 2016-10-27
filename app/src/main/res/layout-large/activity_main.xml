@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devbyrod.statesidetechtest.activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtStartDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/date_from"/>
+
+                <TextView
+                    android:id="@+id/txtEndDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/date_to"/>
+
+                <Button
+                    android:id="@+id/btnGo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:text="GO"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="?attr/actionBarSize">
+
+            <fragment
+                android:id="@+id/fragmentEventsList"
+                android:name="com.devbyrod.statesidetechtest.fragments.EventsListFragment"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"/>
+
+            <fragment
+                android:id="@+id/fragmentMap"
+                android:name="com.devbyrod.statesidetechtest.fragments.MapFragment"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+</FrameLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentEventsList"-->
+        <!--android:name="com.devbyrod.statesidetechtest.fragments.EventsListFragment"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentMap"-->
+        <!--android:name="com.devbyrod.statesidetechtest.fragments.MapFragment"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="7"-->
+        <!--android:layout_height="match_parent"/>-->
+<!--</LinearLayout>-->
